@@ -1,17 +1,37 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common'
+/* Injectable - декоратор NestJS, который помечает класс AuthService как инжектируемый сервис.
+UnauthorizedException - класс исключения NestJS, который используется 
+для обработки ошибок аутентификации и авторизации. */
 import { JwtService } from '@nestjs/jwt'
+/* JwtService - сервис NestJS для работы с JSON Web Tokens (JWT), 
+используется для создания и верификации токенов. */
 import { ModelType } from '@typegoose/typegoose/lib/types'
+/* ModelType - тип данных, используемый при работе с Typegoose, библиотекой для работы 
+с MongoDB и Mongoose с использованием TypeScript. */
 import { genSalt, hash, compare } from 'bcryptjs'
+/* genSalt - функция для генерации "соли" при хешировании паролей.
+hash - функция для хеширования паролей.
+compare - функция для сравнения пароля и хеша при аутентификации. */
 import { InjectModel } from 'nestjs-typegoose'
+/* InjectModel - декоратор NestJS, используемый для инжекции модели данных 
+(в вашем случае, UserModel), определенной с использованием Typegoose. */
 import { RefreshTokenDto } from './dto/refreshToken.dto'
-
+/* RefreshTokenDto - это DTO (Data Transfer Object), используемый для 
+передачи данных о запросе на обновление токенов. */
 import { AuthDto } from './dto/auth.dto'
+/* AuthDto - еще один DTO, используемый для передачи данных 
+аутентификации, таких как email и пароль. */
 import { UserModel } from '../user/user.model'
-
-@Injectable()
+/* UserModel - представляет модель данных пользователя, которая используется для взаимодействия 
+с базой данных и выполнения операций с пользователями в сервисе AuthService. */
+@Injectable()//если в экспортируемом классе есть конструктор либо параметр то используем @Injectable()
 export class AuthService {
 	constructor(
 		@InjectModel(UserModel) private readonly UserModel: ModelType<UserModel>,
+		/*readonly Это ключевое слово указывает, 
+		что после инициализации значения переменной 
+		AuthService нельзя будет изменить. То есть, после установки значения при 
+		создании экземпляра класса AuthController, это значение останется неизменным.*/
 		private readonly jwtService: JwtService
 	) {}
 
@@ -60,7 +80,8 @@ export class AuthService {
 	}
 
 	async findByEmail(email: string) {
-		return this.UserModel.findOne({ email }).exec()
+		return this.UserModel.findOne({ email }).exec()//findOne({ email }) метод выполняет запрос к базе данных для поиска email
+		/* .exec(): Этот метод выполняет запрос к базе данных и возвращает обещание (Promise), которое разрешится результатом запроса. */
 	}
 
 	async validateUser(email: string, password: string): Promise<UserModel> {

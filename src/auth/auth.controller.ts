@@ -20,7 +20,7 @@ export class AuthController {
 	@HttpCode(200)
 	@Post('login')
 	async login(@Body() data: AuthDto) {
-		return this.AuthService.login(data)
+		return this.AuthService.login(data)//отправляем дто в auth service
 	}
 
 	@UsePipes(new ValidationPipe())

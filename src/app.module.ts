@@ -20,6 +20,11 @@ import { RatingModule } from './rating/rating.module'
 
 @Module({
 	imports: [
+		/*
+		forRoot в коде ConfigModule.forRoot() настраивает модуль 
+		ConfigModule для загрузки переменных окружения из файла 
+		.env и делает их доступными для других частей вашего приложения. 
+		*/
 		ConfigModule.forRoot(),
 		// Здесь вы можете передавать опции и конфигурацию для ConfigModule
       	// Например, указать путь к файлу с переменными окружения или другие параметры.
