@@ -1,4 +1,3 @@
-/// <reference types="mongoose" />
 import { JwtService } from '@nestjs/jwt';
 import { ModelType } from '@typegoose/typegoose/lib/types';
 import { RefreshTokenDto } from './dto/refreshToken.dto';

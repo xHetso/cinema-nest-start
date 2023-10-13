@@ -1,4 +1,3 @@
-/// <reference types="mongoose" />
 import { ConfigService } from '@nestjs/config';
 import { ModelType } from '@typegoose/typegoose/lib/types';
 import { Strategy } from 'passport-jwt';

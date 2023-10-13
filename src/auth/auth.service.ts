@@ -27,7 +27,10 @@ import { UserModel } from '../user/user.model'
 @Injectable()//если в экспортируемом классе есть конструктор либо параметр то используем @Injectable()
 export class AuthService {
 	constructor(
-		@InjectModel(UserModel) private readonly UserModel: ModelType<UserModel>,
+		@InjectModel(UserModel)private readonly UserModel: ModelType<UserModel>,
+		/*  В NestJS декоратор @InjectModel() используется для инъекции 
+		класса модели, который представляет структуру данных, 
+		используемую для взаимодействия с базой данных. */ 
 		/*readonly Это ключевое слово указывает, 
 		что после инициализации значения переменной 
 		AuthService нельзя будет изменить. То есть, после установки значения при 
