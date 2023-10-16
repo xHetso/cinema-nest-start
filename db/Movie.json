@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "64676dd3a9e65ac637b2e8a5"
+  },
+  "poster": "/uploads/movies/ip-man-small.jpg",
+  "bigPoster": "/uploads/movies/ip-man.jpg",
+  "title": "Ip Man 2",
+  "rating": 4,
+  "genres": [
+    {
+      "$oid": "621e154c22ee662f8ca5300a"
+    },
+    {
+      "$oid": "64677092a9e65ac637b2e8c2"
+    }
+  ],
+  "countOpened": 0,
+  "videoUrl": "/uploads/movies/ip-man.mp4",
+  "actors": [
+    {
+      "$oid": "646781c8c756a8c4fe4bc763"
+    }
+  ],
+  "slug": "ip-man-2",
+  "isSendTelegram": true,
+  "createdAt": {
+    "$date": "2023-05-19T12:38:43.840Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T13:08:49.035Z"
+  },
+  "__v": 0,
+  "parameters": {
+    "year": 2008,
+    "duration": 102,
+    "country": "Hong Kong, China",
+    "_id": {
+      "$oid": "646774e1a9e65ac637b2e8d8"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6467b8cac756a8c4fe4bc7b0"
+  },
+  "poster": "/uploads/movies/avatar-small.jpg",
+  "bigPoster": "/uploads/movies/avatar.jpg",
+  "title": "Avatar",
+  "rating": 4,
+  "genres": [
+    {
+      "$oid": "64677310a9e65ac637b2e8cd"
+    },
+    {
+      "$oid": "64676dcaa9e65ac637b2e8a2"
+    }
+  ],
+  "countOpened": 0,
+  "videoUrl": "/uploads/movies/avatar.mp4",
+  "actors": [
+    {
+      "$oid": "6467b5d1c756a8c4fe4bc781"
+    }
+  ],
+  "slug": "avatar",
+  "isSendTelegram": true,
+  "createdAt": {
+    "$date": "2023-05-19T17:58:34.455Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T18:05:02.757Z"
+  },
+  "__v": 0,
+  "parameters": {
+    "year": 2009,
+    "duration": 102,
+    "country": "USA",
+    "_id": {
+      "$oid": "6467ba4ec756a8c4fe4bc7b5"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6467ba62c756a8c4fe4bc7bd"
+  },
+  "poster": "/uploads/movies/avatar-small.jpg",
+  "bigPoster": "/uploads/movies/encanto.jpg",
+  "title": "Encanto",
+  "rating": 4,
+  "genres": [
+    {
+      "$oid": "64677266a9e65ac637b2e8c8"
+    },
+    {
+      "$oid": "6467bd53c756a8c4fe4bc7c0"
+    }
+  ],
+  "countOpened": 0,
+  "videoUrl": "/uploads/movies/encanto.mp4",
+  "actors": [
+    {
+      "$oid": "6467b729c756a8c4fe4bc799"
+    }
+  ],
+  "slug": "encanto",
+  "isSendTelegram": true,
+  "createdAt": {
+    "$date": "2023-05-19T18:05:22.399Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T18:27:10.377Z"
+  },
+  "__v": 0,
+  "parameters": {
+    "year": 2009,
+    "duration": 102,
+    "country": "USA",
+    "_id": {
+      "$oid": "6467bf7ec756a8c4fe4bc7c5"
+    }
+  }
+}]

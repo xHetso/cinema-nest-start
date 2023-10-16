@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "646781c8c756a8c4fe4bc763"
+  },
+  "name": "Donnie Yen ",
+  "photo": "/uploads/actors/donnie.jpg",
+  "slug": "donnie-yen ",
+  "createdAt": {
+    "$date": "2023-05-19T14:03:52.838Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T14:07:22.081Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467a80ac756a8c4fe4bc768"
+  },
+  "name": "Charlize Theron",
+  "photo": "/uploads/actors/charlize.jpg",
+  "slug": "charlize-theron",
+  "createdAt": {
+    "$date": "2023-05-19T16:47:06.474Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T16:50:32.189Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467a8e0c756a8c4fe4bc76d"
+  },
+  "name": "Tom Holland",
+  "photo": "/uploads/actors/holland.jpg",
+  "slug": "tom-holland",
+  "createdAt": {
+    "$date": "2023-05-19T16:50:40.462Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T16:52:33.766Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467a9dcc756a8c4fe4bc772"
+  },
+  "name": "Keanu Reeves",
+  "photo": "/uploads/actors/keanu.jpg",
+  "slug": "keanu-reeves",
+  "createdAt": {
+    "$date": "2023-05-19T16:54:52.466Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T16:55:05.365Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467a9ffc756a8c4fe4bc777"
+  },
+  "name": "Laurence John Fishburne III",
+  "photo": "/uploads/actors/laurence.jpg",
+  "slug": "laurence-fishburne",
+  "createdAt": {
+    "$date": "2023-05-19T16:55:27.298Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T16:56:34.917Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467aa5ec756a8c4fe4bc77c"
+  },
+  "name": "Martin Freeman",
+  "photo": "/uploads/actors/martin.jpg",
+  "slug": "martin-freeman",
+  "createdAt": {
+    "$date": "2023-05-19T16:57:02.915Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T16:58:50.337Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b5d1c756a8c4fe4bc781"
+  },
+  "name": "Sam Worthington",
+  "photo": "/uploads/actors/sam.jpg",
+  "slug": "sam-worthington",
+  "createdAt": {
+    "$date": "2023-05-19T17:45:53.692Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:46:03.827Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b5e1c756a8c4fe4bc786"
+  },
+  "name": "Simu Liu",
+  "photo": "/uploads/actors/simu-liu.jpg",
+  "slug": "simu-liu",
+  "createdAt": {
+    "$date": "2023-05-19T17:46:09.817Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:47:37.258Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b729c756a8c4fe4bc799"
+  },
+  "name": "Stephanie Beatriz ",
+  "photo": "/uploads/actors/stephanie.jpg",
+  "slug": "stephanie-beatriz ",
+  "createdAt": {
+    "$date": "2023-05-19T17:51:37.096Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:51:48.096Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b738c756a8c4fe4bc79e"
+  },
+  "name": "Tom Hardy",
+  "photo": "/uploads/actors/tom-hardy.jpg",
+  "slug": "tom-hardy",
+  "createdAt": {
+    "$date": "2023-05-19T17:51:52.112Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:52:44.648Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b770c756a8c4fe4bc7a3"
+  },
+  "name": "Jack Peter Benedict Whitehall",
+  "photo": "/uploads/actors/uncle.jpg",
+  "slug": "jack-whitehall",
+  "createdAt": {
+    "$date": "2023-05-19T17:52:48.526Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:57:15.094Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6467b887c756a8c4fe4bc7a8"
+  },
+  "name": "Will Smith",
+  "photo": "/uploads/actors/will.jpg",
+  "slug": "will-smith",
+  "createdAt": {
+    "$date": "2023-05-19T17:57:27.111Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-19T17:58:07.875Z"
+  },
+  "__v": 0
+}]
